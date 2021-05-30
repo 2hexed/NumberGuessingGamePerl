@@ -1,0 +1,1 @@
+my$initVal=10;while(1){$randNumber=int rand($initVal);print"Guess a number between 0 to $initVal:";$UserInput=<STDIN>;if($UserInput=="exit"){exit 0};print ((($UserInput==$randNumber) ? "You won!\n" : "You lose!\n"));$initVal+=10};
